@@ -1,0 +1,22 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "description": "Mark Stover's React Component Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build && tsc"
+  },
+  "author": "Mark Stover",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.47",
+    "@types/react-dom": "^18.2.18",
+    "react": "^18.2.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.11"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
